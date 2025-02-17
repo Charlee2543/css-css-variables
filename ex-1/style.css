@@ -1,7 +1,31 @@
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
-
 /* Start coding here */
+:root {
+	--Branding-color: #ff7f50;
+	--Secondary-color: cornsilk;
+	--Highlight-color: #d2691e;
+	--Muted: #a9a9a9;
+	--Level1: 1px;
+	--Level2: 5px;
+	--Level3: 10px;
+	--Level4: 15px;
+	--Level5: 20px;
+	--Small: 12px;
+	--Medium: 16px;
+	--Large: 20px;
+	--Extra-Large: 30px;
+	--Double-Extra-Large: 50px;
+	--Triple-Extra-Large: 100px;
+}
+.introduction {
+	background: var(--Secondary-color);
+	padding: var(--Level5);
+}
+.introduction h1 {
+	color: var(--Branding-color);
+	font-size: var(--Triple-Extra-Large);
+}
