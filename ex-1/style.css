@@ -4,4 +4,96 @@
   margin: 0;
 }
 
-/* Start coding here */
+/* สีของเว็บไซต์ */
+:root {
+  --branding-color:#ff7f50;
+}
+
+:root {
+  --secondary-color: cornsilk;
+}
+
+:root {
+  --highlight-color: #d2691e;
+}
+
+:root {
+  --muted-color: #a9a9a9;
+}
+
+/* Margin ของเว็บไซต์ */
+:root {
+  --margin-level-1:1px;
+}
+
+:root {
+  --margin-level-2:5px;
+}
+
+:root {
+  --margin-level-3:10px;
+}
+
+:root {
+  --margin-level-4:15px;
+}
+
+:root {
+  --margin-level-5: 20px;
+}
+
+/* Padding ของเว็บไซต์ */
+:root {
+  --padding-level-1:1px;
+}
+
+:root {
+  --padding-level-2:5px;
+}
+
+:root {
+  --padding-level-3:10px;
+}
+
+:root {
+  --padding-level-4:15px;
+}
+
+:root {
+  --padding-level-5: 20px;
+}
+
+/* ขนาด Font ของเว็บไซต์ */
+:root {
+  --small: 12px;
+}
+
+:root {
+  --medium: 16px;
+}
+
+:root {
+  --large:20px;
+}
+
+:root {
+  --extra-large: 30px;
+}
+
+:root {
+  --double-extra-large: 50px;
+}
+
+:root {
+  --triple-extra-large: 100px;
+}
+
+.introduction {
+  background-color: var(--secondary-color);
+  padding: var(--padding-level-5);
+}
+
+.introduction h1 {
+  color: var(--branding-color);
+  font-size: var(--triple-extra-large);
+}
